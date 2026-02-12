@@ -5,7 +5,7 @@ public class BigProgram {
     private static long checksum = 0;
 
     private static void method0(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -31,7 +31,7 @@ public class BigProgram {
     }
 
     private static void method1(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -57,7 +57,7 @@ public class BigProgram {
     }
 
     private static void method2(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -83,7 +83,7 @@ public class BigProgram {
     }
 
     private static void method3(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -109,7 +109,7 @@ public class BigProgram {
     }
 
     private static void method4(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -135,7 +135,7 @@ public class BigProgram {
     }
 
     private static void method5(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -161,7 +161,7 @@ public class BigProgram {
     }
 
     private static void method6(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -187,7 +187,7 @@ public class BigProgram {
     }
 
     private static void method7(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -213,7 +213,7 @@ public class BigProgram {
     }
 
     private static void method8(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -239,7 +239,7 @@ public class BigProgram {
     }
 
     private static void method9(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -265,7 +265,7 @@ public class BigProgram {
     }
 
     private static void method10(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -291,7 +291,7 @@ public class BigProgram {
     }
 
     private static void method11(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -317,7 +317,7 @@ public class BigProgram {
     }
 
     private static void method12(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -343,7 +343,7 @@ public class BigProgram {
     }
 
     private static void method13(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -369,7 +369,7 @@ public class BigProgram {
     }
 
     private static void method14(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -395,7 +395,7 @@ public class BigProgram {
     }
 
     private static void method15(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -421,7 +421,7 @@ public class BigProgram {
     }
 
     private static void method16(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -447,7 +447,7 @@ public class BigProgram {
     }
 
     private static void method17(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -473,7 +473,7 @@ public class BigProgram {
     }
 
     private static void method18(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -499,7 +499,7 @@ public class BigProgram {
     }
 
     private static void method19(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -525,7 +525,7 @@ public class BigProgram {
     }
 
     private static void method20(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -551,7 +551,7 @@ public class BigProgram {
     }
 
     private static void method21(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -577,7 +577,7 @@ public class BigProgram {
     }
 
     private static void method22(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -603,7 +603,7 @@ public class BigProgram {
     }
 
     private static void method23(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -629,7 +629,7 @@ public class BigProgram {
     }
 
     private static void method24(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -655,7 +655,7 @@ public class BigProgram {
     }
 
     private static void method25(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -681,7 +681,7 @@ public class BigProgram {
     }
 
     private static void method26(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -707,7 +707,7 @@ public class BigProgram {
     }
 
     private static void method27(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -733,7 +733,7 @@ public class BigProgram {
     }
 
     private static void method28(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -759,7 +759,7 @@ public class BigProgram {
     }
 
     private static void method29(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -785,7 +785,7 @@ public class BigProgram {
     }
 
     private static void method30(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -811,7 +811,7 @@ public class BigProgram {
     }
 
     private static void method31(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -837,7 +837,7 @@ public class BigProgram {
     }
 
     private static void method32(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -863,7 +863,7 @@ public class BigProgram {
     }
 
     private static void method33(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -889,7 +889,7 @@ public class BigProgram {
     }
 
     private static void method34(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -915,7 +915,7 @@ public class BigProgram {
     }
 
     private static void method35(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -941,7 +941,7 @@ public class BigProgram {
     }
 
     private static void method36(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -967,7 +967,7 @@ public class BigProgram {
     }
 
     private static void method37(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -993,7 +993,7 @@ public class BigProgram {
     }
 
     private static void method38(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1019,7 +1019,7 @@ public class BigProgram {
     }
 
     private static void method39(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1045,7 +1045,7 @@ public class BigProgram {
     }
 
     private static void method40(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1071,7 +1071,7 @@ public class BigProgram {
     }
 
     private static void method41(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1097,7 +1097,7 @@ public class BigProgram {
     }
 
     private static void method42(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1123,7 +1123,7 @@ public class BigProgram {
     }
 
     private static void method43(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1149,7 +1149,7 @@ public class BigProgram {
     }
 
     private static void method44(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1175,7 +1175,7 @@ public class BigProgram {
     }
 
     private static void method45(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1201,7 +1201,7 @@ public class BigProgram {
     }
 
     private static void method46(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1227,7 +1227,7 @@ public class BigProgram {
     }
 
     private static void method47(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1253,7 +1253,7 @@ public class BigProgram {
     }
 
     private static void method48(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1279,7 +1279,7 @@ public class BigProgram {
     }
 
     private static void method49(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1305,7 +1305,7 @@ public class BigProgram {
     }
 
     private static void method50(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1331,7 +1331,7 @@ public class BigProgram {
     }
 
     private static void method51(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1357,7 +1357,7 @@ public class BigProgram {
     }
 
     private static void method52(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1383,7 +1383,7 @@ public class BigProgram {
     }
 
     private static void method53(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1409,7 +1409,7 @@ public class BigProgram {
     }
 
     private static void method54(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1435,7 +1435,7 @@ public class BigProgram {
     }
 
     private static void method55(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1461,7 +1461,7 @@ public class BigProgram {
     }
 
     private static void method56(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1487,7 +1487,7 @@ public class BigProgram {
     }
 
     private static void method57(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1513,7 +1513,7 @@ public class BigProgram {
     }
 
     private static void method58(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1539,7 +1539,7 @@ public class BigProgram {
     }
 
     private static void method59(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1565,7 +1565,7 @@ public class BigProgram {
     }
 
     private static void method60(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1591,7 +1591,7 @@ public class BigProgram {
     }
 
     private static void method61(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1617,7 +1617,7 @@ public class BigProgram {
     }
 
     private static void method62(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1643,7 +1643,7 @@ public class BigProgram {
     }
 
     private static void method63(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1669,7 +1669,7 @@ public class BigProgram {
     }
 
     private static void method64(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1695,7 +1695,7 @@ public class BigProgram {
     }
 
     private static void method65(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1721,7 +1721,7 @@ public class BigProgram {
     }
 
     private static void method66(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1747,7 +1747,7 @@ public class BigProgram {
     }
 
     private static void method67(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1773,7 +1773,7 @@ public class BigProgram {
     }
 
     private static void method68(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1799,7 +1799,7 @@ public class BigProgram {
     }
 
     private static void method69(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1825,7 +1825,7 @@ public class BigProgram {
     }
 
     private static void method70(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1851,7 +1851,7 @@ public class BigProgram {
     }
 
     private static void method71(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1877,7 +1877,7 @@ public class BigProgram {
     }
 
     private static void method72(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1903,7 +1903,7 @@ public class BigProgram {
     }
 
     private static void method73(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1929,7 +1929,7 @@ public class BigProgram {
     }
 
     private static void method74(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1955,7 +1955,7 @@ public class BigProgram {
     }
 
     private static void method75(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -1981,7 +1981,7 @@ public class BigProgram {
     }
 
     private static void method76(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2007,7 +2007,7 @@ public class BigProgram {
     }
 
     private static void method77(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2033,7 +2033,7 @@ public class BigProgram {
     }
 
     private static void method78(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2059,7 +2059,7 @@ public class BigProgram {
     }
 
     private static void method79(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2085,7 +2085,7 @@ public class BigProgram {
     }
 
     private static void method80(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2111,7 +2111,7 @@ public class BigProgram {
     }
 
     private static void method81(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2137,7 +2137,7 @@ public class BigProgram {
     }
 
     private static void method82(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2163,7 +2163,7 @@ public class BigProgram {
     }
 
     private static void method83(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2189,7 +2189,7 @@ public class BigProgram {
     }
 
     private static void method84(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2215,7 +2215,7 @@ public class BigProgram {
     }
 
     private static void method85(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2241,7 +2241,7 @@ public class BigProgram {
     }
 
     private static void method86(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2267,7 +2267,7 @@ public class BigProgram {
     }
 
     private static void method87(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2293,7 +2293,7 @@ public class BigProgram {
     }
 
     private static void method88(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2319,7 +2319,7 @@ public class BigProgram {
     }
 
     private static void method89(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2345,7 +2345,7 @@ public class BigProgram {
     }
 
     private static void method90(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2371,7 +2371,7 @@ public class BigProgram {
     }
 
     private static void method91(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2397,7 +2397,7 @@ public class BigProgram {
     }
 
     private static void method92(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2423,7 +2423,7 @@ public class BigProgram {
     }
 
     private static void method93(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2449,7 +2449,7 @@ public class BigProgram {
     }
 
     private static void method94(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2475,7 +2475,7 @@ public class BigProgram {
     }
 
     private static void method95(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2501,7 +2501,7 @@ public class BigProgram {
     }
 
     private static void method96(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2527,7 +2527,7 @@ public class BigProgram {
     }
 
     private static void method97(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2553,7 +2553,7 @@ public class BigProgram {
     }
 
     private static void method98(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2579,7 +2579,7 @@ public class BigProgram {
     }
 
     private static void method99(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2605,7 +2605,7 @@ public class BigProgram {
     }
 
     private static void method100(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2631,7 +2631,7 @@ public class BigProgram {
     }
 
     private static void method101(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2657,7 +2657,7 @@ public class BigProgram {
     }
 
     private static void method102(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2683,7 +2683,7 @@ public class BigProgram {
     }
 
     private static void method103(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2709,7 +2709,7 @@ public class BigProgram {
     }
 
     private static void method104(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2735,7 +2735,7 @@ public class BigProgram {
     }
 
     private static void method105(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2761,7 +2761,7 @@ public class BigProgram {
     }
 
     private static void method106(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2787,7 +2787,7 @@ public class BigProgram {
     }
 
     private static void method107(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2813,7 +2813,7 @@ public class BigProgram {
     }
 
     private static void method108(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2839,7 +2839,7 @@ public class BigProgram {
     }
 
     private static void method109(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2865,7 +2865,7 @@ public class BigProgram {
     }
 
     private static void method110(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2891,7 +2891,7 @@ public class BigProgram {
     }
 
     private static void method111(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2917,7 +2917,7 @@ public class BigProgram {
     }
 
     private static void method112(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2943,7 +2943,7 @@ public class BigProgram {
     }
 
     private static void method113(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2969,7 +2969,7 @@ public class BigProgram {
     }
 
     private static void method114(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -2995,7 +2995,7 @@ public class BigProgram {
     }
 
     private static void method115(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3021,7 +3021,7 @@ public class BigProgram {
     }
 
     private static void method116(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3047,7 +3047,7 @@ public class BigProgram {
     }
 
     private static void method117(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3073,7 +3073,7 @@ public class BigProgram {
     }
 
     private static void method118(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3099,7 +3099,7 @@ public class BigProgram {
     }
 
     private static void method119(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3125,7 +3125,7 @@ public class BigProgram {
     }
 
     private static void method120(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3151,7 +3151,7 @@ public class BigProgram {
     }
 
     private static void method121(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3177,7 +3177,7 @@ public class BigProgram {
     }
 
     private static void method122(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3203,7 +3203,7 @@ public class BigProgram {
     }
 
     private static void method123(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3229,7 +3229,7 @@ public class BigProgram {
     }
 
     private static void method124(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3255,7 +3255,7 @@ public class BigProgram {
     }
 
     private static void method125(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3281,7 +3281,7 @@ public class BigProgram {
     }
 
     private static void method126(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3307,7 +3307,7 @@ public class BigProgram {
     }
 
     private static void method127(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3333,7 +3333,7 @@ public class BigProgram {
     }
 
     private static void method128(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3359,7 +3359,7 @@ public class BigProgram {
     }
 
     private static void method129(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3385,7 +3385,7 @@ public class BigProgram {
     }
 
     private static void method130(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3411,7 +3411,7 @@ public class BigProgram {
     }
 
     private static void method131(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3437,7 +3437,7 @@ public class BigProgram {
     }
 
     private static void method132(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3463,7 +3463,7 @@ public class BigProgram {
     }
 
     private static void method133(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3489,7 +3489,7 @@ public class BigProgram {
     }
 
     private static void method134(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3515,7 +3515,7 @@ public class BigProgram {
     }
 
     private static void method135(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3541,7 +3541,7 @@ public class BigProgram {
     }
 
     private static void method136(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3567,7 +3567,7 @@ public class BigProgram {
     }
 
     private static void method137(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3593,7 +3593,7 @@ public class BigProgram {
     }
 
     private static void method138(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3619,7 +3619,7 @@ public class BigProgram {
     }
 
     private static void method139(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3645,7 +3645,7 @@ public class BigProgram {
     }
 
     private static void method140(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3671,7 +3671,7 @@ public class BigProgram {
     }
 
     private static void method141(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3697,7 +3697,7 @@ public class BigProgram {
     }
 
     private static void method142(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3723,7 +3723,7 @@ public class BigProgram {
     }
 
     private static void method143(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3749,7 +3749,7 @@ public class BigProgram {
     }
 
     private static void method144(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3775,7 +3775,7 @@ public class BigProgram {
     }
 
     private static void method145(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3801,7 +3801,7 @@ public class BigProgram {
     }
 
     private static void method146(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3827,7 +3827,7 @@ public class BigProgram {
     }
 
     private static void method147(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3853,7 +3853,7 @@ public class BigProgram {
     }
 
     private static void method148(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3879,7 +3879,7 @@ public class BigProgram {
     }
 
     private static void method149(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3905,7 +3905,7 @@ public class BigProgram {
     }
 
     private static void method150(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3931,7 +3931,7 @@ public class BigProgram {
     }
 
     private static void method151(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3957,7 +3957,7 @@ public class BigProgram {
     }
 
     private static void method152(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -3983,7 +3983,7 @@ public class BigProgram {
     }
 
     private static void method153(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4009,7 +4009,7 @@ public class BigProgram {
     }
 
     private static void method154(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4035,7 +4035,7 @@ public class BigProgram {
     }
 
     private static void method155(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4061,7 +4061,7 @@ public class BigProgram {
     }
 
     private static void method156(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4087,7 +4087,7 @@ public class BigProgram {
     }
 
     private static void method157(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4113,7 +4113,7 @@ public class BigProgram {
     }
 
     private static void method158(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4139,7 +4139,7 @@ public class BigProgram {
     }
 
     private static void method159(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4165,7 +4165,7 @@ public class BigProgram {
     }
 
     private static void method160(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4191,7 +4191,7 @@ public class BigProgram {
     }
 
     private static void method161(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4217,7 +4217,7 @@ public class BigProgram {
     }
 
     private static void method162(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4243,7 +4243,7 @@ public class BigProgram {
     }
 
     private static void method163(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4269,7 +4269,7 @@ public class BigProgram {
     }
 
     private static void method164(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4295,7 +4295,7 @@ public class BigProgram {
     }
 
     private static void method165(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4321,7 +4321,7 @@ public class BigProgram {
     }
 
     private static void method166(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4347,7 +4347,7 @@ public class BigProgram {
     }
 
     private static void method167(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4373,7 +4373,7 @@ public class BigProgram {
     }
 
     private static void method168(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4399,7 +4399,7 @@ public class BigProgram {
     }
 
     private static void method169(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4425,7 +4425,7 @@ public class BigProgram {
     }
 
     private static void method170(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4451,7 +4451,7 @@ public class BigProgram {
     }
 
     private static void method171(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4477,7 +4477,7 @@ public class BigProgram {
     }
 
     private static void method172(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4503,7 +4503,7 @@ public class BigProgram {
     }
 
     private static void method173(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4529,7 +4529,7 @@ public class BigProgram {
     }
 
     private static void method174(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4555,7 +4555,7 @@ public class BigProgram {
     }
 
     private static void method175(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4581,7 +4581,7 @@ public class BigProgram {
     }
 
     private static void method176(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4607,7 +4607,7 @@ public class BigProgram {
     }
 
     private static void method177(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4633,7 +4633,7 @@ public class BigProgram {
     }
 
     private static void method178(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4659,7 +4659,7 @@ public class BigProgram {
     }
 
     private static void method179(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4685,7 +4685,7 @@ public class BigProgram {
     }
 
     private static void method180(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4711,7 +4711,7 @@ public class BigProgram {
     }
 
     private static void method181(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4737,7 +4737,7 @@ public class BigProgram {
     }
 
     private static void method182(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4763,7 +4763,7 @@ public class BigProgram {
     }
 
     private static void method183(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4789,7 +4789,7 @@ public class BigProgram {
     }
 
     private static void method184(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4815,7 +4815,7 @@ public class BigProgram {
     }
 
     private static void method185(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4841,7 +4841,7 @@ public class BigProgram {
     }
 
     private static void method186(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4867,7 +4867,7 @@ public class BigProgram {
     }
 
     private static void method187(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4893,7 +4893,7 @@ public class BigProgram {
     }
 
     private static void method188(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4919,7 +4919,7 @@ public class BigProgram {
     }
 
     private static void method189(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4945,7 +4945,7 @@ public class BigProgram {
     }
 
     private static void method190(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4971,7 +4971,7 @@ public class BigProgram {
     }
 
     private static void method191(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -4997,7 +4997,7 @@ public class BigProgram {
     }
 
     private static void method192(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5023,7 +5023,7 @@ public class BigProgram {
     }
 
     private static void method193(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5049,7 +5049,7 @@ public class BigProgram {
     }
 
     private static void method194(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5075,7 +5075,7 @@ public class BigProgram {
     }
 
     private static void method195(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5101,7 +5101,7 @@ public class BigProgram {
     }
 
     private static void method196(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5127,7 +5127,7 @@ public class BigProgram {
     }
 
     private static void method197(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5153,7 +5153,7 @@ public class BigProgram {
     }
 
     private static void method198(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5179,7 +5179,7 @@ public class BigProgram {
     }
 
     private static void method199(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5205,7 +5205,7 @@ public class BigProgram {
     }
 
     private static void method200(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5231,7 +5231,7 @@ public class BigProgram {
     }
 
     private static void method201(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5257,7 +5257,7 @@ public class BigProgram {
     }
 
     private static void method202(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5283,7 +5283,7 @@ public class BigProgram {
     }
 
     private static void method203(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5309,7 +5309,7 @@ public class BigProgram {
     }
 
     private static void method204(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5335,7 +5335,7 @@ public class BigProgram {
     }
 
     private static void method205(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5361,7 +5361,7 @@ public class BigProgram {
     }
 
     private static void method206(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5387,7 +5387,7 @@ public class BigProgram {
     }
 
     private static void method207(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5413,7 +5413,7 @@ public class BigProgram {
     }
 
     private static void method208(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5439,7 +5439,7 @@ public class BigProgram {
     }
 
     private static void method209(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5465,7 +5465,7 @@ public class BigProgram {
     }
 
     private static void method210(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5491,7 +5491,7 @@ public class BigProgram {
     }
 
     private static void method211(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5517,7 +5517,7 @@ public class BigProgram {
     }
 
     private static void method212(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5543,7 +5543,7 @@ public class BigProgram {
     }
 
     private static void method213(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5569,7 +5569,7 @@ public class BigProgram {
     }
 
     private static void method214(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5595,7 +5595,7 @@ public class BigProgram {
     }
 
     private static void method215(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5621,7 +5621,7 @@ public class BigProgram {
     }
 
     private static void method216(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5647,7 +5647,7 @@ public class BigProgram {
     }
 
     private static void method217(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5673,7 +5673,7 @@ public class BigProgram {
     }
 
     private static void method218(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5699,7 +5699,7 @@ public class BigProgram {
     }
 
     private static void method219(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5725,7 +5725,7 @@ public class BigProgram {
     }
 
     private static void method220(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5751,7 +5751,7 @@ public class BigProgram {
     }
 
     private static void method221(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5777,7 +5777,7 @@ public class BigProgram {
     }
 
     private static void method222(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5803,7 +5803,7 @@ public class BigProgram {
     }
 
     private static void method223(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5829,7 +5829,7 @@ public class BigProgram {
     }
 
     private static void method224(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5855,7 +5855,7 @@ public class BigProgram {
     }
 
     private static void method225(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5881,7 +5881,7 @@ public class BigProgram {
     }
 
     private static void method226(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5907,7 +5907,7 @@ public class BigProgram {
     }
 
     private static void method227(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5933,7 +5933,7 @@ public class BigProgram {
     }
 
     private static void method228(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5959,7 +5959,7 @@ public class BigProgram {
     }
 
     private static void method229(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -5985,7 +5985,7 @@ public class BigProgram {
     }
 
     private static void method230(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6011,7 +6011,7 @@ public class BigProgram {
     }
 
     private static void method231(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6037,7 +6037,7 @@ public class BigProgram {
     }
 
     private static void method232(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6063,7 +6063,7 @@ public class BigProgram {
     }
 
     private static void method233(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6089,7 +6089,7 @@ public class BigProgram {
     }
 
     private static void method234(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6115,7 +6115,7 @@ public class BigProgram {
     }
 
     private static void method235(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6141,7 +6141,7 @@ public class BigProgram {
     }
 
     private static void method236(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6167,7 +6167,7 @@ public class BigProgram {
     }
 
     private static void method237(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6193,7 +6193,7 @@ public class BigProgram {
     }
 
     private static void method238(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6219,7 +6219,7 @@ public class BigProgram {
     }
 
     private static void method239(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6245,7 +6245,7 @@ public class BigProgram {
     }
 
     private static void method240(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6271,7 +6271,7 @@ public class BigProgram {
     }
 
     private static void method241(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6297,7 +6297,7 @@ public class BigProgram {
     }
 
     private static void method242(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6323,7 +6323,7 @@ public class BigProgram {
     }
 
     private static void method243(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6349,7 +6349,7 @@ public class BigProgram {
     }
 
     private static void method244(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6375,7 +6375,7 @@ public class BigProgram {
     }
 
     private static void method245(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6401,7 +6401,7 @@ public class BigProgram {
     }
 
     private static void method246(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6427,7 +6427,7 @@ public class BigProgram {
     }
 
     private static void method247(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6453,7 +6453,7 @@ public class BigProgram {
     }
 
     private static void method248(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6479,7 +6479,7 @@ public class BigProgram {
     }
 
     private static void method249(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6505,7 +6505,7 @@ public class BigProgram {
     }
 
     private static void method250(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6531,7 +6531,7 @@ public class BigProgram {
     }
 
     private static void method251(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6557,7 +6557,7 @@ public class BigProgram {
     }
 
     private static void method252(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6583,7 +6583,7 @@ public class BigProgram {
     }
 
     private static void method253(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6609,7 +6609,7 @@ public class BigProgram {
     }
 
     private static void method254(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6635,7 +6635,7 @@ public class BigProgram {
     }
 
     private static void method255(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6661,7 +6661,7 @@ public class BigProgram {
     }
 
     private static void method256(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6687,7 +6687,7 @@ public class BigProgram {
     }
 
     private static void method257(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6713,7 +6713,7 @@ public class BigProgram {
     }
 
     private static void method258(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6739,7 +6739,7 @@ public class BigProgram {
     }
 
     private static void method259(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6765,7 +6765,7 @@ public class BigProgram {
     }
 
     private static void method260(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6791,7 +6791,7 @@ public class BigProgram {
     }
 
     private static void method261(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6817,7 +6817,7 @@ public class BigProgram {
     }
 
     private static void method262(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6843,7 +6843,7 @@ public class BigProgram {
     }
 
     private static void method263(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6869,7 +6869,7 @@ public class BigProgram {
     }
 
     private static void method264(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6895,7 +6895,7 @@ public class BigProgram {
     }
 
     private static void method265(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6921,7 +6921,7 @@ public class BigProgram {
     }
 
     private static void method266(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6947,7 +6947,7 @@ public class BigProgram {
     }
 
     private static void method267(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6973,7 +6973,7 @@ public class BigProgram {
     }
 
     private static void method268(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -6999,7 +6999,7 @@ public class BigProgram {
     }
 
     private static void method269(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7025,7 +7025,7 @@ public class BigProgram {
     }
 
     private static void method270(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7051,7 +7051,7 @@ public class BigProgram {
     }
 
     private static void method271(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7077,7 +7077,7 @@ public class BigProgram {
     }
 
     private static void method272(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7103,7 +7103,7 @@ public class BigProgram {
     }
 
     private static void method273(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7129,7 +7129,7 @@ public class BigProgram {
     }
 
     private static void method274(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7155,7 +7155,7 @@ public class BigProgram {
     }
 
     private static void method275(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7181,7 +7181,7 @@ public class BigProgram {
     }
 
     private static void method276(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7207,7 +7207,7 @@ public class BigProgram {
     }
 
     private static void method277(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7233,7 +7233,7 @@ public class BigProgram {
     }
 
     private static void method278(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7259,7 +7259,7 @@ public class BigProgram {
     }
 
     private static void method279(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7285,7 +7285,7 @@ public class BigProgram {
     }
 
     private static void method280(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7311,7 +7311,7 @@ public class BigProgram {
     }
 
     private static void method281(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7337,7 +7337,7 @@ public class BigProgram {
     }
 
     private static void method282(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7363,7 +7363,7 @@ public class BigProgram {
     }
 
     private static void method283(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7389,7 +7389,7 @@ public class BigProgram {
     }
 
     private static void method284(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7415,7 +7415,7 @@ public class BigProgram {
     }
 
     private static void method285(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7441,7 +7441,7 @@ public class BigProgram {
     }
 
     private static void method286(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7467,7 +7467,7 @@ public class BigProgram {
     }
 
     private static void method287(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7493,7 +7493,7 @@ public class BigProgram {
     }
 
     private static void method288(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7519,7 +7519,7 @@ public class BigProgram {
     }
 
     private static void method289(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7545,7 +7545,7 @@ public class BigProgram {
     }
 
     private static void method290(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7571,7 +7571,7 @@ public class BigProgram {
     }
 
     private static void method291(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7597,7 +7597,7 @@ public class BigProgram {
     }
 
     private static void method292(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7623,7 +7623,7 @@ public class BigProgram {
     }
 
     private static void method293(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7649,7 +7649,7 @@ public class BigProgram {
     }
 
     private static void method294(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7675,7 +7675,7 @@ public class BigProgram {
     }
 
     private static void method295(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7701,7 +7701,7 @@ public class BigProgram {
     }
 
     private static void method296(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7727,7 +7727,7 @@ public class BigProgram {
     }
 
     private static void method297(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7753,7 +7753,7 @@ public class BigProgram {
     }
 
     private static void method298(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7779,7 +7779,7 @@ public class BigProgram {
     }
 
     private static void method299(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7805,7 +7805,7 @@ public class BigProgram {
     }
 
     private static void method300(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7831,7 +7831,7 @@ public class BigProgram {
     }
 
     private static void method301(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7857,7 +7857,7 @@ public class BigProgram {
     }
 
     private static void method302(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7883,7 +7883,7 @@ public class BigProgram {
     }
 
     private static void method303(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7909,7 +7909,7 @@ public class BigProgram {
     }
 
     private static void method304(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7935,7 +7935,7 @@ public class BigProgram {
     }
 
     private static void method305(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7961,7 +7961,7 @@ public class BigProgram {
     }
 
     private static void method306(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -7987,7 +7987,7 @@ public class BigProgram {
     }
 
     private static void method307(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8013,7 +8013,7 @@ public class BigProgram {
     }
 
     private static void method308(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8039,7 +8039,7 @@ public class BigProgram {
     }
 
     private static void method309(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8065,7 +8065,7 @@ public class BigProgram {
     }
 
     private static void method310(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8091,7 +8091,7 @@ public class BigProgram {
     }
 
     private static void method311(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8117,7 +8117,7 @@ public class BigProgram {
     }
 
     private static void method312(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8143,7 +8143,7 @@ public class BigProgram {
     }
 
     private static void method313(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8169,7 +8169,7 @@ public class BigProgram {
     }
 
     private static void method314(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8195,7 +8195,7 @@ public class BigProgram {
     }
 
     private static void method315(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8221,7 +8221,7 @@ public class BigProgram {
     }
 
     private static void method316(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8247,7 +8247,7 @@ public class BigProgram {
     }
 
     private static void method317(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8273,7 +8273,7 @@ public class BigProgram {
     }
 
     private static void method318(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8299,7 +8299,7 @@ public class BigProgram {
     }
 
     private static void method319(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8325,7 +8325,7 @@ public class BigProgram {
     }
 
     private static void method320(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8351,7 +8351,7 @@ public class BigProgram {
     }
 
     private static void method321(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8377,7 +8377,7 @@ public class BigProgram {
     }
 
     private static void method322(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8403,7 +8403,7 @@ public class BigProgram {
     }
 
     private static void method323(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8429,7 +8429,7 @@ public class BigProgram {
     }
 
     private static void method324(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8455,7 +8455,7 @@ public class BigProgram {
     }
 
     private static void method325(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8481,7 +8481,7 @@ public class BigProgram {
     }
 
     private static void method326(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8507,7 +8507,7 @@ public class BigProgram {
     }
 
     private static void method327(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8533,7 +8533,7 @@ public class BigProgram {
     }
 
     private static void method328(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8559,7 +8559,7 @@ public class BigProgram {
     }
 
     private static void method329(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8585,7 +8585,7 @@ public class BigProgram {
     }
 
     private static void method330(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8611,7 +8611,7 @@ public class BigProgram {
     }
 
     private static void method331(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8637,7 +8637,7 @@ public class BigProgram {
     }
 
     private static void method332(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8663,7 +8663,7 @@ public class BigProgram {
     }
 
     private static void method333(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8689,7 +8689,7 @@ public class BigProgram {
     }
 
     private static void method334(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8715,7 +8715,7 @@ public class BigProgram {
     }
 
     private static void method335(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8741,7 +8741,7 @@ public class BigProgram {
     }
 
     private static void method336(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8767,7 +8767,7 @@ public class BigProgram {
     }
 
     private static void method337(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8793,7 +8793,7 @@ public class BigProgram {
     }
 
     private static void method338(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8819,7 +8819,7 @@ public class BigProgram {
     }
 
     private static void method339(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8845,7 +8845,7 @@ public class BigProgram {
     }
 
     private static void method340(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8871,7 +8871,7 @@ public class BigProgram {
     }
 
     private static void method341(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8897,7 +8897,7 @@ public class BigProgram {
     }
 
     private static void method342(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8923,7 +8923,7 @@ public class BigProgram {
     }
 
     private static void method343(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8949,7 +8949,7 @@ public class BigProgram {
     }
 
     private static void method344(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -8975,7 +8975,7 @@ public class BigProgram {
     }
 
     private static void method345(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9001,7 +9001,7 @@ public class BigProgram {
     }
 
     private static void method346(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9027,7 +9027,7 @@ public class BigProgram {
     }
 
     private static void method347(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9053,7 +9053,7 @@ public class BigProgram {
     }
 
     private static void method348(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9079,7 +9079,7 @@ public class BigProgram {
     }
 
     private static void method349(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9105,7 +9105,7 @@ public class BigProgram {
     }
 
     private static void method350(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9131,7 +9131,7 @@ public class BigProgram {
     }
 
     private static void method351(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9157,7 +9157,7 @@ public class BigProgram {
     }
 
     private static void method352(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9183,7 +9183,7 @@ public class BigProgram {
     }
 
     private static void method353(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9209,7 +9209,7 @@ public class BigProgram {
     }
 
     private static void method354(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9235,7 +9235,7 @@ public class BigProgram {
     }
 
     private static void method355(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9261,7 +9261,7 @@ public class BigProgram {
     }
 
     private static void method356(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9287,7 +9287,7 @@ public class BigProgram {
     }
 
     private static void method357(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9313,7 +9313,7 @@ public class BigProgram {
     }
 
     private static void method358(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9339,7 +9339,7 @@ public class BigProgram {
     }
 
     private static void method359(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9365,7 +9365,7 @@ public class BigProgram {
     }
 
     private static void method360(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9391,7 +9391,7 @@ public class BigProgram {
     }
 
     private static void method361(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9417,7 +9417,7 @@ public class BigProgram {
     }
 
     private static void method362(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9443,7 +9443,7 @@ public class BigProgram {
     }
 
     private static void method363(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9469,7 +9469,7 @@ public class BigProgram {
     }
 
     private static void method364(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9495,7 +9495,7 @@ public class BigProgram {
     }
 
     private static void method365(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9521,7 +9521,7 @@ public class BigProgram {
     }
 
     private static void method366(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9547,7 +9547,7 @@ public class BigProgram {
     }
 
     private static void method367(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9573,7 +9573,7 @@ public class BigProgram {
     }
 
     private static void method368(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9599,7 +9599,7 @@ public class BigProgram {
     }
 
     private static void method369(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9625,7 +9625,7 @@ public class BigProgram {
     }
 
     private static void method370(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9651,7 +9651,7 @@ public class BigProgram {
     }
 
     private static void method371(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9677,7 +9677,7 @@ public class BigProgram {
     }
 
     private static void method372(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9703,7 +9703,7 @@ public class BigProgram {
     }
 
     private static void method373(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9729,7 +9729,7 @@ public class BigProgram {
     }
 
     private static void method374(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9755,7 +9755,7 @@ public class BigProgram {
     }
 
     private static void method375(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9781,7 +9781,7 @@ public class BigProgram {
     }
 
     private static void method376(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9807,7 +9807,7 @@ public class BigProgram {
     }
 
     private static void method377(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9833,7 +9833,7 @@ public class BigProgram {
     }
 
     private static void method378(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9859,7 +9859,7 @@ public class BigProgram {
     }
 
     private static void method379(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9885,7 +9885,7 @@ public class BigProgram {
     }
 
     private static void method380(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9911,7 +9911,7 @@ public class BigProgram {
     }
 
     private static void method381(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9937,7 +9937,7 @@ public class BigProgram {
     }
 
     private static void method382(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9963,7 +9963,7 @@ public class BigProgram {
     }
 
     private static void method383(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -9989,7 +9989,7 @@ public class BigProgram {
     }
 
     private static void method384(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10015,7 +10015,7 @@ public class BigProgram {
     }
 
     private static void method385(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10041,7 +10041,7 @@ public class BigProgram {
     }
 
     private static void method386(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10067,7 +10067,7 @@ public class BigProgram {
     }
 
     private static void method387(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10093,7 +10093,7 @@ public class BigProgram {
     }
 
     private static void method388(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10119,7 +10119,7 @@ public class BigProgram {
     }
 
     private static void method389(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10145,7 +10145,7 @@ public class BigProgram {
     }
 
     private static void method390(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10171,7 +10171,7 @@ public class BigProgram {
     }
 
     private static void method391(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10197,7 +10197,7 @@ public class BigProgram {
     }
 
     private static void method392(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10223,7 +10223,7 @@ public class BigProgram {
     }
 
     private static void method393(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10249,7 +10249,7 @@ public class BigProgram {
     }
 
     private static void method394(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10275,7 +10275,7 @@ public class BigProgram {
     }
 
     private static void method395(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10301,7 +10301,7 @@ public class BigProgram {
     }
 
     private static void method396(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10327,7 +10327,7 @@ public class BigProgram {
     }
 
     private static void method397(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10353,7 +10353,7 @@ public class BigProgram {
     }
 
     private static void method398(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10379,7 +10379,7 @@ public class BigProgram {
     }
 
     private static void method399(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10405,7 +10405,7 @@ public class BigProgram {
     }
 
     private static void method400(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10431,7 +10431,7 @@ public class BigProgram {
     }
 
     private static void method401(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10457,7 +10457,7 @@ public class BigProgram {
     }
 
     private static void method402(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10483,7 +10483,7 @@ public class BigProgram {
     }
 
     private static void method403(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10509,7 +10509,7 @@ public class BigProgram {
     }
 
     private static void method404(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10535,7 +10535,7 @@ public class BigProgram {
     }
 
     private static void method405(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10561,7 +10561,7 @@ public class BigProgram {
     }
 
     private static void method406(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10587,7 +10587,7 @@ public class BigProgram {
     }
 
     private static void method407(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10613,7 +10613,7 @@ public class BigProgram {
     }
 
     private static void method408(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10639,7 +10639,7 @@ public class BigProgram {
     }
 
     private static void method409(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10665,7 +10665,7 @@ public class BigProgram {
     }
 
     private static void method410(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10691,7 +10691,7 @@ public class BigProgram {
     }
 
     private static void method411(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10717,7 +10717,7 @@ public class BigProgram {
     }
 
     private static void method412(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10743,7 +10743,7 @@ public class BigProgram {
     }
 
     private static void method413(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10769,7 +10769,7 @@ public class BigProgram {
     }
 
     private static void method414(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10795,7 +10795,7 @@ public class BigProgram {
     }
 
     private static void method415(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10821,7 +10821,7 @@ public class BigProgram {
     }
 
     private static void method416(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10847,7 +10847,7 @@ public class BigProgram {
     }
 
     private static void method417(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10873,7 +10873,7 @@ public class BigProgram {
     }
 
     private static void method418(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10899,7 +10899,7 @@ public class BigProgram {
     }
 
     private static void method419(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10925,7 +10925,7 @@ public class BigProgram {
     }
 
     private static void method420(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10951,7 +10951,7 @@ public class BigProgram {
     }
 
     private static void method421(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -10977,7 +10977,7 @@ public class BigProgram {
     }
 
     private static void method422(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11003,7 +11003,7 @@ public class BigProgram {
     }
 
     private static void method423(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11029,7 +11029,7 @@ public class BigProgram {
     }
 
     private static void method424(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11055,7 +11055,7 @@ public class BigProgram {
     }
 
     private static void method425(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11081,7 +11081,7 @@ public class BigProgram {
     }
 
     private static void method426(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11107,7 +11107,7 @@ public class BigProgram {
     }
 
     private static void method427(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11133,7 +11133,7 @@ public class BigProgram {
     }
 
     private static void method428(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11159,7 +11159,7 @@ public class BigProgram {
     }
 
     private static void method429(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11185,7 +11185,7 @@ public class BigProgram {
     }
 
     private static void method430(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11211,7 +11211,7 @@ public class BigProgram {
     }
 
     private static void method431(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11237,7 +11237,7 @@ public class BigProgram {
     }
 
     private static void method432(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11263,7 +11263,7 @@ public class BigProgram {
     }
 
     private static void method433(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11289,7 +11289,7 @@ public class BigProgram {
     }
 
     private static void method434(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11315,7 +11315,7 @@ public class BigProgram {
     }
 
     private static void method435(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11341,7 +11341,7 @@ public class BigProgram {
     }
 
     private static void method436(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11367,7 +11367,7 @@ public class BigProgram {
     }
 
     private static void method437(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11393,7 +11393,7 @@ public class BigProgram {
     }
 
     private static void method438(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11419,7 +11419,7 @@ public class BigProgram {
     }
 
     private static void method439(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11445,7 +11445,7 @@ public class BigProgram {
     }
 
     private static void method440(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11471,7 +11471,7 @@ public class BigProgram {
     }
 
     private static void method441(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11497,7 +11497,7 @@ public class BigProgram {
     }
 
     private static void method442(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11523,7 +11523,7 @@ public class BigProgram {
     }
 
     private static void method443(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11549,7 +11549,7 @@ public class BigProgram {
     }
 
     private static void method444(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11575,7 +11575,7 @@ public class BigProgram {
     }
 
     private static void method445(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11601,7 +11601,7 @@ public class BigProgram {
     }
 
     private static void method446(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11627,7 +11627,7 @@ public class BigProgram {
     }
 
     private static void method447(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11653,7 +11653,7 @@ public class BigProgram {
     }
 
     private static void method448(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11679,7 +11679,7 @@ public class BigProgram {
     }
 
     private static void method449(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11705,7 +11705,7 @@ public class BigProgram {
     }
 
     private static void method450(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11731,7 +11731,7 @@ public class BigProgram {
     }
 
     private static void method451(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11757,7 +11757,7 @@ public class BigProgram {
     }
 
     private static void method452(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11783,7 +11783,7 @@ public class BigProgram {
     }
 
     private static void method453(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11809,7 +11809,7 @@ public class BigProgram {
     }
 
     private static void method454(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11835,7 +11835,7 @@ public class BigProgram {
     }
 
     private static void method455(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11861,7 +11861,7 @@ public class BigProgram {
     }
 
     private static void method456(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11887,7 +11887,7 @@ public class BigProgram {
     }
 
     private static void method457(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11913,7 +11913,7 @@ public class BigProgram {
     }
 
     private static void method458(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11939,7 +11939,7 @@ public class BigProgram {
     }
 
     private static void method459(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11965,7 +11965,7 @@ public class BigProgram {
     }
 
     private static void method460(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -11991,7 +11991,7 @@ public class BigProgram {
     }
 
     private static void method461(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12017,7 +12017,7 @@ public class BigProgram {
     }
 
     private static void method462(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12043,7 +12043,7 @@ public class BigProgram {
     }
 
     private static void method463(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12069,7 +12069,7 @@ public class BigProgram {
     }
 
     private static void method464(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12095,7 +12095,7 @@ public class BigProgram {
     }
 
     private static void method465(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12121,7 +12121,7 @@ public class BigProgram {
     }
 
     private static void method466(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12147,7 +12147,7 @@ public class BigProgram {
     }
 
     private static void method467(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12173,7 +12173,7 @@ public class BigProgram {
     }
 
     private static void method468(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12199,7 +12199,7 @@ public class BigProgram {
     }
 
     private static void method469(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12225,7 +12225,7 @@ public class BigProgram {
     }
 
     private static void method470(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12251,7 +12251,7 @@ public class BigProgram {
     }
 
     private static void method471(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12277,7 +12277,7 @@ public class BigProgram {
     }
 
     private static void method472(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12303,7 +12303,7 @@ public class BigProgram {
     }
 
     private static void method473(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12329,7 +12329,7 @@ public class BigProgram {
     }
 
     private static void method474(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12355,7 +12355,7 @@ public class BigProgram {
     }
 
     private static void method475(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12381,7 +12381,7 @@ public class BigProgram {
     }
 
     private static void method476(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12407,7 +12407,7 @@ public class BigProgram {
     }
 
     private static void method477(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12433,7 +12433,7 @@ public class BigProgram {
     }
 
     private static void method478(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12459,7 +12459,7 @@ public class BigProgram {
     }
 
     private static void method479(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12485,7 +12485,7 @@ public class BigProgram {
     }
 
     private static void method480(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12511,7 +12511,7 @@ public class BigProgram {
     }
 
     private static void method481(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12537,7 +12537,7 @@ public class BigProgram {
     }
 
     private static void method482(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12563,7 +12563,7 @@ public class BigProgram {
     }
 
     private static void method483(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12589,7 +12589,7 @@ public class BigProgram {
     }
 
     private static void method484(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12615,7 +12615,7 @@ public class BigProgram {
     }
 
     private static void method485(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12641,7 +12641,7 @@ public class BigProgram {
     }
 
     private static void method486(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12667,7 +12667,7 @@ public class BigProgram {
     }
 
     private static void method487(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12693,7 +12693,7 @@ public class BigProgram {
     }
 
     private static void method488(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12719,7 +12719,7 @@ public class BigProgram {
     }
 
     private static void method489(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12745,7 +12745,7 @@ public class BigProgram {
     }
 
     private static void method490(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12771,7 +12771,7 @@ public class BigProgram {
     }
 
     private static void method491(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12797,7 +12797,7 @@ public class BigProgram {
     }
 
     private static void method492(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12823,7 +12823,7 @@ public class BigProgram {
     }
 
     private static void method493(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12849,7 +12849,7 @@ public class BigProgram {
     }
 
     private static void method494(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12875,7 +12875,7 @@ public class BigProgram {
     }
 
     private static void method495(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12901,7 +12901,7 @@ public class BigProgram {
     }
 
     private static void method496(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12927,7 +12927,7 @@ public class BigProgram {
     }
 
     private static void method497(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12953,7 +12953,7 @@ public class BigProgram {
     }
 
     private static void method498(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -12979,7 +12979,7 @@ public class BigProgram {
     }
 
     private static void method499(int seed) {
-        byte[] data = new byte[200 * 1024]; // 200KB
+        byte[] data = new byte[400 * 1024]; // 400KB
         new Random(seed).nextBytes(data);
         memoryKeep.add(data);
         long localSum = 0;
@@ -13002,6 +13002,17 @@ public class BigProgram {
         localSum += (seed * 16) ^ data[16];
         localSum += (seed * 17) ^ data[17];
         checksum += localSum;
+    }
+
+    private static void touchMemory() {
+        long sum = 0;
+        for (Object obj : memoryKeep) {
+            byte[] data = (byte[]) obj;
+            for (int i = 0; i < data.length; i += 4096) {
+                sum += data[i];
+            }
+        }
+        checksum += sum;
     }
 
     public static void main(String[] args) throws Exception {
@@ -14509,9 +14520,18 @@ public class BigProgram {
         checksum += 998;
         checksum += 999;
 
-        System.out.println("Ready. Memory should be occupied. Checksum: " + checksum);
-        System.out.println("Press Enter to stop the program...");
-        System.in.read();
-        System.out.println("Final Checksum to prevent optimization: " + checksum + " List size: " + memoryKeep.size());
+        System.out.println("Ready. Memory occupied. Checksum: " + checksum);
+        System.out.println("Entering keep-warm loop...");
+        Random rng = new Random();
+        int iteration = 0;
+        while (true) {
+            touchMemory();
+            int sleepMs = 5000 + rng.nextInt(10001); // 5–15 seconds
+            iteration++;
+            if (iteration % 10 == 0) {
+                System.out.println("Iteration " + iteration + " checksum=" + checksum + " sleeping " + sleepMs + "ms");
+            }
+            Thread.sleep(sleepMs);
+        }
     }
 }
