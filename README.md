@@ -31,10 +31,10 @@ Requires `BigProgram.jar` to exist. Launches the program once to collect the loa
 ### 3. Launch instances
 
 ```bash
-./Launch.sh 40
+./Launch.sh 50
 ```
 
-Launches the specified number of instances. If the AppCDS archive exists, instances are launched with `-Xshare:on` automatically. Otherwise they launch without it (with a warning).
+Launches the specified number of instances (50 recommended). If the AppCDS archive exists, instances are launched with `-Xshare:on` automatically. Otherwise they launch without it (with a warning).
 
 ### Stopping all instances
 
@@ -49,6 +49,28 @@ Launches the specified number of instances. If the AppCDS archive exists, instan
 ```
 
 Removes all generated artifacts (`.jar`, `.jsa`, `.cls`, `.java`, `.class`, logs), keeping only source code.
+
+## Experiment: see AppCDS in action
+
+To feel the difference AppCDS makes, try launching 50 instances before and after setting up the shared archive. Tested on macOS with Java 25.
+
+**Without AppCDS:**
+
+```bash
+./CreateBigProgram.sh
+./Launch.sh 50
+# Watch memory usage in Activity Monitor, then stop:
+./kill.sh
+```
+
+**With AppCDS:**
+
+```bash
+./appcds_setup.sh
+./Launch.sh 50
+# Compare memory usage in Activity Monitor — it should be noticeably lower
+./kill.sh
+```
 
 ## Files
 
