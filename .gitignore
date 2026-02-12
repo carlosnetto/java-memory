@@ -1,0 +1,5 @@
+BigProgram*
+Worker*.java
+Worker*.class
+build/
+instance_*.log
