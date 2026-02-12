@@ -8,7 +8,7 @@ A synthetic Java workload for testing JVM AppCDS (Application Class Data Sharing
 
 The memory footprint comes entirely from loaded class metadata and bytecode (~155MB+ metaspace) — exactly what AppCDS can share across JVM instances. No large heap allocations are used.
 
-After the initial execution, the program loops forever, re-executing all methods and sleeping for a random 5–15 seconds. This keeps code pages warm (preventing Linux from swapping them) and staggers CPU usage across instances.
+After the initial execution, the program loops forever, re-executing all methods and sleeping for a random 30–60 seconds. This keeps code pages warm (preventing Linux from swapping them) and staggers CPU usage across instances.
 
 ## Usage
 

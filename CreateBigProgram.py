@@ -14,7 +14,7 @@ memory consumption comes from the loaded class data itself, which is exactly
 what AppCDS can share across 40 concurrent instances.
 
 After the initial execution, the program loops forever, re-executing all
-methods and sleeping for a random 5-15 seconds. This keeps code pages warm
+methods and sleeping for a random 30-60 seconds. This keeps code pages warm
 (preventing Linux from swapping them out) and staggers CPU usage across
 instances.
 """
@@ -93,7 +93,7 @@ def generate_java():
         f.write("        int iteration = 0;\n")
         f.write("        while (true) {\n")
         f.write("            runAll();\n")
-        f.write("            int sleepMs = 5000 + rng.nextInt(10001); // 5-15 seconds\n")
+        f.write("            int sleepMs = 30000 + rng.nextInt(30001); // 30-60 seconds\n")
         f.write("            iteration++;\n")
         f.write("            if (iteration % 10 == 0) {\n")
         f.write("                System.out.println(\"Iteration \" + iteration + \" \" + memoryReport());\n")
