@@ -21,7 +21,7 @@ instances.
 
 
 def generate_java():
-    num_classes = 200
+    num_classes = 100
     methods_per_class = 200
     lines_per_method = 200
 

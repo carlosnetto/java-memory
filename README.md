@@ -4,7 +4,7 @@ A synthetic Java workload for testing JVM AppCDS (Application Class Data Sharing
 
 ## What it does
 
-`CreateBigProgram.py` generates 200 Worker classes with 200 methods each (40,000 methods total), all filled with unique arithmetic operations that produce substantial bytecode. A main class (`BigProgram`) calls all methods in a loop.
+`CreateBigProgram.py` generates 100 Worker classes with 200 methods each (20,000 methods total), all filled with unique arithmetic operations that produce substantial bytecode. A main class (`BigProgram`) calls all methods in a loop.
 
 The memory footprint comes entirely from loaded class metadata and bytecode (~155MB+ metaspace) — exactly what AppCDS can share across JVM instances. No large heap allocations are used.
 
@@ -39,7 +39,7 @@ If the AppCDS archive exists, instances are launched with `-Xshare:on` automatic
 ### Stopping all instances
 
 ```bash
-pkill -f BigProgram
+./kill.sh
 ```
 
 ### Cleaning up
@@ -54,8 +54,9 @@ Removes all generated artifacts (`.jar`, `.jsa`, `.cls`, `.java`, `.class`, logs
 
 | File | Description |
 |---|---|
-| `CreateBigProgram.py` | Python script that generates the Java sources (BigProgram + 200 Worker classes) |
+| `CreateBigProgram.py` | Python script that generates the Java sources (BigProgram + 100 Worker classes) |
 | `CreateBigProgram.sh` | Generates sources, compiles, packages `BigProgram.jar`, and cleans up |
 | `appcds_setup.sh` | Dumps class list and creates the AppCDS shared archive (requires `BigProgram.jar`) |
 | `launch_40.sh` | Launches 40 background instances, using the AppCDS archive if available |
+| `kill.sh` | Kills all running BigProgram instances |
 | `cleanup.sh` | Removes all generated artifacts |
