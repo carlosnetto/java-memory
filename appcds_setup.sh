@@ -32,7 +32,7 @@ wait "$PID" 2>/dev/null || true
 echo "Class list written to $CLASS_LIST ($(wc -l < "$CLASS_LIST") classes)"
 
 echo "=== Step 3: Creating shared archive ==="
-java -Xshare:dump -XX:SharedClassListFile="$CLASS_LIST" -XX:SharedArchiveFile="$ARCHIVE"
+java -Xshare:dump -cp "$JAR" -XX:SharedClassListFile="$CLASS_LIST" -XX:SharedArchiveFile="$ARCHIVE"
 echo "Archive created: $ARCHIVE ($(du -h "$ARCHIVE" | cut -f1))"
 
 echo ""
