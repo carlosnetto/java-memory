@@ -28,13 +28,13 @@ Generates the Java sources, compiles them, packages everything into `BigProgram.
 
 Requires `BigProgram.jar` to exist. Launches the program once to collect the loaded class list and creates a shared archive (`BigProgram.jsa`).
 
-### 3. Launch 40 instances
+### 3. Launch instances
 
 ```bash
-./launch_40.sh
+./Launch.sh 40
 ```
 
-If the AppCDS archive exists, instances are launched with `-Xshare:on` automatically. Otherwise they launch without it (with a warning).
+Launches the specified number of instances. If the AppCDS archive exists, instances are launched with `-Xshare:on` automatically. Otherwise they launch without it (with a warning).
 
 ### Stopping all instances
 
@@ -57,6 +57,6 @@ Removes all generated artifacts (`.jar`, `.jsa`, `.cls`, `.java`, `.class`, logs
 | `CreateBigProgram.py` | Python script that generates the Java sources (BigProgram + 100 Worker classes) |
 | `CreateBigProgram.sh` | Generates sources, compiles, packages `BigProgram.jar`, and cleans up |
 | `appcds_setup.sh` | Dumps class list and creates the AppCDS shared archive (requires `BigProgram.jar`) |
-| `launch_40.sh` | Launches 40 background instances, using the AppCDS archive if available |
+| `Launch.sh` | Launches N background instances, using the AppCDS archive if available |
 | `kill.sh` | Kills all running BigProgram instances |
 | `cleanup.sh` | Removes all generated artifacts |
