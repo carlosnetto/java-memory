@@ -21,9 +21,9 @@ instances.
 
 
 def generate_java():
-    num_classes = 20
-    methods_per_class = 100
-    lines_per_method = 150
+    num_classes = 80
+    methods_per_class = 200
+    lines_per_method = 200
 
     ops = ['+', '-', '^', '|', '&']
 
@@ -54,20 +54,41 @@ def generate_java():
 
     # Generate main class
     with open("BigProgram.java", "w") as f:
+        f.write("import java.lang.management.ManagementFactory;\n")
+        f.write("import java.lang.management.MemoryPoolMXBean;\n")
         f.write("import java.util.Random;\n\n")
         f.write("public class BigProgram {\n")
         f.write("    private static long checksum = 0;\n\n")
 
-        f.write("    private static void runAll() {\n")
+        # One helper per worker to stay under 64KB method bytecode limit
         for cls_idx in range(num_classes):
+            f.write(f"    private static void runWorker{cls_idx}() {{\n")
             for m in range(methods_per_class):
                 f.write(f"        checksum += Worker{cls_idx}.method{m}(checksum);\n")
+            f.write("    }\n\n")
+
+        f.write("    private static void runAll() {\n")
+        for cls_idx in range(num_classes):
+            f.write(f"        runWorker{cls_idx}();\n")
+        f.write("    }\n\n")
+
+        f.write("    private static String memoryReport() {\n")
+        f.write("        Runtime rt = Runtime.getRuntime();\n")
+        f.write("        long heapUsed = (rt.totalMemory() - rt.freeMemory()) / (1024 * 1024);\n")
+        f.write("        long heapMax = rt.maxMemory() / (1024 * 1024);\n")
+        f.write("        long metaspace = 0;\n")
+        f.write("        for (MemoryPoolMXBean pool : ManagementFactory.getMemoryPoolMXBeans()) {\n")
+        f.write("            if (pool.getName().contains(\"Metaspace\")) {\n")
+        f.write("                metaspace = pool.getUsage().getUsed() / (1024 * 1024);\n")
+        f.write("            }\n")
+        f.write("        }\n")
+        f.write("        return \"heap=\" + heapUsed + \"/\" + heapMax + \"MB metaspace=\" + metaspace + \"MB\";\n")
         f.write("    }\n\n")
 
         f.write("    public static void main(String[] args) throws Exception {\n")
         f.write("        System.out.println(\"Running initial pass to load all code...\");\n")
         f.write("        runAll();\n")
-        f.write("        System.out.println(\"Ready. Entering keep-warm loop. Checksum: \" + checksum);\n")
+        f.write("        System.out.println(\"Ready. Entering keep-warm loop. \" + memoryReport());\n")
         f.write("        Random rng = new Random();\n")
         f.write("        int iteration = 0;\n")
         f.write("        while (true) {\n")
@@ -75,7 +96,7 @@ def generate_java():
         f.write("            int sleepMs = 5000 + rng.nextInt(10001); // 5-15 seconds\n")
         f.write("            iteration++;\n")
         f.write("            if (iteration % 10 == 0) {\n")
-        f.write("                System.out.println(\"Iteration \" + iteration + \" checksum=\" + checksum);\n")
+        f.write("                System.out.println(\"Iteration \" + iteration + \" \" + memoryReport());\n")
         f.write("            }\n")
         f.write("            Thread.sleep(sleepMs);\n")
         f.write("        }\n")
