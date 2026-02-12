@@ -6,6 +6,7 @@
 
 NUM=${1:?Usage: ./Launch.sh <number_of_instances>}
 JAR="BigProgram.jar"
+AOT_CACHE="BigProgram.aot"
 ARCHIVE="BigProgram.jsa"
 JAVA_OPTS=""
 
@@ -14,11 +15,14 @@ if [ ! -f "$JAR" ]; then
     exit 1
 fi
 
-if [ -f "$ARCHIVE" ]; then
+if [ -f "$AOT_CACHE" ]; then
+    echo "Leyden AOT cache found, launching with AOT cache."
+    JAVA_OPTS="-XX:AOTCache=$AOT_CACHE"
+elif [ -f "$ARCHIVE" ]; then
     echo "AppCDS archive found, launching with shared archive."
     JAVA_OPTS="-Xshare:on -XX:SharedArchiveFile=$ARCHIVE"
 else
-    echo "No AppCDS archive found. Run appcds_setup.sh first for faster startup."
+    echo "No AOT cache or AppCDS archive found. Run leyden_setup.sh or appcds_setup.sh first."
 fi
 
 echo "Launching $NUM instances of BigProgram..."

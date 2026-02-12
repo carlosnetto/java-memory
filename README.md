@@ -28,13 +28,21 @@ Generates the Java sources, compiles them, packages everything into `BigProgram.
 
 Requires `BigProgram.jar` to exist. Launches the program once to collect the loaded class list and creates a shared archive (`BigProgram.jsa`).
 
-### 3. Launch instances
+### 3. (Alternative) Build the Leyden AOT cache
+
+```bash
+./leyden_setup.sh
+```
+
+Requires `BigProgram.jar` to exist and a JDK with Project Leyden support (JDK 24+). Runs the program once to record an execution profile, then creates an AOT cache (`BigProgram.aot`). This goes further than AppCDS by also caching AOT-compiled code.
+
+### 4. Launch instances
 
 ```bash
 ./Launch.sh 50
 ```
 
-Launches the specified number of instances (50 recommended). If the AppCDS archive exists, instances are launched with `-Xshare:on` automatically. Otherwise they launch without it (with a warning).
+Launches the specified number of instances (50 recommended). If the Leyden AOT cache exists, instances use it automatically; otherwise if the AppCDS archive exists, instances use that instead. If neither is found, instances launch without optimizations (with a warning).
 
 ### Stopping all instances
 
@@ -48,7 +56,19 @@ Launches the specified number of instances (50 recommended). If the AppCDS archi
 ./cleanup.sh
 ```
 
-Removes all generated artifacts (`.jar`, `.jsa`, `.cls`, `.java`, `.class`, logs), keeping only source code.
+Removes all generated artifacts (`.jar`, `.jsa`, `.cls`, `.aot`, `.aotconf`, `.java`, `.class`, logs), keeping only source code.
+
+## Experiment: see Leyden in action
+
+Project Leyden (JDK 24+) caches AOT-compiled code on top of class metadata, potentially saving even more memory and startup time than AppCDS alone.
+
+```bash
+./CreateBigProgram.sh
+./leyden_setup.sh
+./Launch.sh 50
+# Watch memory usage in Activity Monitor, then stop:
+./kill.sh
+```
 
 ## Experiment: see AppCDS in action
 
@@ -79,6 +99,7 @@ To feel the difference AppCDS makes, try launching 50 instances before and after
 | `CreateBigProgram.py` | Python script that generates the Java sources (BigProgram + 100 Worker classes) |
 | `CreateBigProgram.sh` | Generates sources, compiles, packages `BigProgram.jar`, and cleans up |
 | `appcds_setup.sh` | Dumps class list and creates the AppCDS shared archive (requires `BigProgram.jar`) |
-| `Launch.sh` | Launches N background instances, using the AppCDS archive if available |
+| `leyden_setup.sh` | Records execution profile and creates the Leyden AOT cache (requires `BigProgram.jar`, JDK 24+) |
+| `Launch.sh` | Launches N background instances, using Leyden AOT cache or AppCDS archive if available |
 | `kill.sh` | Kills all running BigProgram instances |
 | `cleanup.sh` | Removes all generated artifacts |

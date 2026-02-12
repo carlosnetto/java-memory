@@ -21,15 +21,18 @@ Key parameters in `CreateBigProgram.py:generate_java()`:
 
 1. `./CreateBigProgram.sh` — generate sources, compile in batches of 20, package into `BigProgram.jar`
 2. `./appcds_setup.sh` — run once to dump class list (`.cls`) and create shared archive (`.jsa`)
-3. `./Launch.sh <N>` — launch N instances (auto-uses AppCDS archive if present)
-4. `./kill.sh` — kill all running instances
-5. `./cleanup.sh` — remove all generated artifacts (`.jar`, `.jsa`, `.cls`, `.java`, `.class`, logs)
+3. `./leyden_setup.sh` — alternative to AppCDS: record profile (`.aotconf`) and create AOT cache (`.aot`) via Project Leyden
+4. `./Launch.sh <N>` — launch N instances (auto-uses Leyden AOT cache or AppCDS archive if present)
+5. `./kill.sh` — kill all running instances
+6. `./cleanup.sh` — remove all generated artifacts (`.jar`, `.jsa`, `.cls`, `.aot`, `.aotconf`, `.java`, `.class`, logs)
 
 ## Generated artifacts (not committed)
 
 - `BigProgram.jar` — the compiled workload
 - `BigProgram.cls` — AppCDS class list
 - `BigProgram.jsa` — AppCDS shared archive
+- `BigProgram.aotconf` — Leyden AOT configuration (execution profile)
+- `BigProgram.aot` — Leyden AOT cache
 - `instance_*.log` — per-instance logs
 - `Worker*.java`, `BigProgram.java` — intermediate generated sources (deleted by build script)
 

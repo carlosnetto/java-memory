@@ -4,6 +4,7 @@
 #
 
 rm -f BigProgram.jar BigProgram.cls BigProgram.jsa
+rm -f BigProgram.aot BigProgram.aotconf
 rm -f BigProgram.java BigProgram.class
 rm -f Worker*.java Worker*.class
 rm -f instance_*.log
